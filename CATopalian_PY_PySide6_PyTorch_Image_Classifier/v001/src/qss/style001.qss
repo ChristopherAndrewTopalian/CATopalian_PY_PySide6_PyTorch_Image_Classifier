@@ -1,0 +1,32 @@
+QWidget {
+    background-color: rgb(30, 30, 30);
+    color: white;
+    font-family: sans-serif;
+}
+QScrollArea {
+    border: none;
+    background-color: transparent;
+}
+QScrollBar:vertical {
+    background: rgb(20, 20, 20);
+    width: 8px;
+    margin: 0;
+}
+QScrollBar::handle:vertical {
+    background: rgb(80, 80, 80);
+    border-radius: 4px;
+    min-height: 20px;
+}
+QScrollBar::handle:vertical:hover {
+    background: rgb(120, 120, 120);
+}
+QScrollBar::add-line:vertical, QScrollBar::sub-line:vertical {
+    height: 0px;
+}
+
+/* Dedicated to God the Father */
+/* All Rights Reserved Christopher Andrew Topalian Copyright 2000-2026 */
+/* https://github.com/ChristopherTopalian */
+/* https://github.com/ChristopherAndrewTopalian */
+/* https://sites.google.com/view/CollegeOfScripting */
+
